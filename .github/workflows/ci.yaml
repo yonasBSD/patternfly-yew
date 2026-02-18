@@ -20,8 +20,7 @@ jobs:
       matrix:
         toolchain:
           - stable
-          # MSRV for bumpalo
-          - "1.85.0"
+          - "1.90.0"
 
     steps:
       - uses: actions/checkout@v4
